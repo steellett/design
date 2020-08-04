@@ -1,0 +1,319 @@
+        body {
+            box-shadow: 0 0 5px 5px gray;
+        }
+        
+        .section-1 {
+            background: url(../imgs/IMG_3644.jpg) no-repeat, rgba(53, 53, 201, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 0;
+        }
+        
+        .section-1 h1 {
+            margin-top: 200px;
+            font-size: 48px;
+        }
+        
+        .section-1 h3 {
+            margin-top: 50px;
+            font-size: 24px;
+        }
+        
+        .section-1 .cards {
+            justify-content: center;
+            margin-top: 70px;
+        }
+        
+        .section-1 .cards>div {
+            position: relative;
+            border: 1px solid white;
+            border-top: none;
+            margin: 0 20px;
+            z-index: 1;
+        }
+        
+        .section-1 .cards>div:after {
+            content: '';
+            position: absolute;
+            width: 35%;
+            background: white;
+            height: 1px;
+            top: 0;
+            left: 0;
+        }
+        
+        .section-1 .cards>div:before {
+            content: '';
+            position: absolute;
+            width: 35%;
+            background: white;
+            height: 1px;
+            top: 0;
+            left: 100%;
+            transform: translateX(-100%);
+        }
+        
+        .section-1 .cards img {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 50%;
+            top: 0;
+            transform: translate(-50%, -50%);
+            object-position: top;
+            z-index: 10000;
+        }
+        
+        .section-1 .cards p:nth-of-type(1) {
+            font-size: 48px;
+        }
+        
+        .section-1 .cards p:nth-of-type() {
+            font-size: 18px;
+        }
+        
+        .section-1 nav {
+            margin-top: 70px;
+            width: 100%;
+            background: #fff;
+        }
+        
+        .section-1 #navbarNav {
+            width: 100%;
+            justify-content: flex-end;
+        }
+        
+        .section-2 {
+            position: relative;
+        }
+        
+        .section-2>div {
+            margin-bottom: 7em;
+        }
+        
+        .section-2-bg {
+            position: absolute;
+            text-align: center;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            font-size: 200px;
+            color: rgba(167, 167, 167, 0.2)
+        }
+        
+        .studia>div:nth-of-type(1) {
+            text-align: center;
+            align-self: center;
+        }
+        
+        .osnovy h3 {
+            font-size: 20px;
+        }
+        
+        .osnovy div:nth-of-type(3) {
+            background-color: #ff9933;
+            color: white;
+        }
+        
+        .section-3 {
+            text-align: center;
+            z-index: 1000;
+            color: white;
+            overflow-x: hidden;
+        }
+        
+        .section-3 .credo {
+            position: relative;
+            min-height: 30rem;
+        }
+        
+        .section-3 .credo>* {
+            margin: 4rem 0;
+        }
+        
+        .section-3 .sec3-bg-1 {
+            background: url(../imgs/IMG_3644.jpg) no-repeat, rgba(53, 53, 201, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+            background-position: 0% 75%;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            z-index: 0;
+        }
+        
+        .section-3 .credo p {
+            justify-content: center;
+            text-align: center;
+            align-self: center;
+        }
+        
+        .section-3 .razrabotka {
+            top: -2em;
+            left: 2em;
+            height: 20em;
+            width: 100%;
+            position: relative;
+            background: url(../imgs/cog2.png) no-repeat;
+            background-size: contain;
+            background-size: 100% 100%;
+            background-color: #ff9933;
+        }
+        
+        .section-3 .razrabotka img {
+            position: absolute;
+            justify-content: flex-start;
+            width: 30%;
+            top: 0;
+            left: 0;
+        }
+        
+        .section-3 .uslugi {
+            top: -7em;
+            min-height: 10em;
+            position: relative;
+            color: white;
+            justify-content: space-around;
+        }
+        
+        .section-3 .uslugi>div {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+        .section-3 .uslugi button {
+            color: white;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(1) button {
+            border: 2px solid #00ccff;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(2) button {
+            border: 2px solid #ffcc00;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(3) button {
+            border: 2px solid #66cc00;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(1) button:hover {
+            box-shadow: 0 0 5px 1px #00ccff;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(2) button:hover {
+            box-shadow: 0 0 5px 1px #ffcc00;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(3) button:hover {
+            box-shadow: 0 0 5px 1px #66cc00;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(1) {
+            background: url(../imgs/IMG_3646.jpg) rgba(53, 53, 201, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(2) {
+            background: url(../imgs/Free-04.jpg) rgba(53, 53, 201, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+        
+        .section-3 .uslugi>div h2 {
+            margin-top: 2em;
+            height: 3em;
+            border-bottom: 2px solid white;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(3) h2 {
+            margin-top: 2em;
+        }
+        
+        .section-3 .uslugi>div:nth-of-type(3) {
+            background: url(../imgs/заказ.jpg) rgba(53, 53, 201, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+        
+        .section-3 .uslugi>div .row {
+            margin-top: 3rem;
+            margin-bottom: 1em;
+            justify-content: space-around;
+        }
+        
+        .section-4 {
+            position: relative;
+        }
+        
+        .section-4 .partners {
+            text-align: center;
+        }
+        
+        .section-4 .bg-sec-4 {
+            position: absolute;
+            color: #cccccc;
+            font-size: 100px;
+            z-index: 0;
+        }
+        
+        .section-5 .projects-cards img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+        
+        .bg-projects {
+            height: 100%;
+            position: absolute;
+            font-size: 2em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: rgba(204, 204, 204, 0.5);
+            z-index: 1;
+            letter-spacing: 0.2em;
+        }
+        
+        .projects-name {
+            height: 3em;
+            position: relative;
+            justify-content: center;
+            background-color: #333366;
+            color: white;
+        }
+        
+        .projects-name p {
+            display: flex;
+            align-self: center;
+            margin: 0;
+            z-index: 10;
+            font-size: 1.4em;
+        }
+        
+        .more-projects>div {
+            background-color: #333366;
+            height: 4em;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .more-projects button {
+            color: white;
+            background-color: #666699;
+            font-weight: bold;
+            display: flex;
+            align-self: center;
+            border-radius: 12px;
+            border: none;
+            padding: 0.5em;
+        }
